@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-compute-optimizer-automation`](https://www.npmjs.com/package/@aws-sdk/client-compute-optimizer-automation/v/3.1060.0).
+[`@aws-sdk/client-compute-optimizer-automation`](https://www.npmjs.com/package/@aws-sdk/client-compute-optimizer-automation/v/3.1061.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-compute-optimizer-automation - [https://cloud-sdk-builds.github.io/?sdk=client-compute-optimizer-automation](https://cloud-sdk-builds.github.io/?sdk=client-compute-optimizer-automation)
-- @aws-sdk/client-compute-optimizer-automation v3.1060.0 - [https://cloud-sdk-builds.github.io/?sdk=client-compute-optimizer-automation&version=3.1060.0](https://cloud-sdk-builds.github.io/?sdk=client-compute-optimizer-automation&version=3.1060.0)
+- @aws-sdk/client-compute-optimizer-automation v3.1061.0 - [https://cloud-sdk-builds.github.io/?sdk=client-compute-optimizer-automation&version=3.1061.0](https://cloud-sdk-builds.github.io/?sdk=client-compute-optimizer-automation&version=3.1061.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-compute-optimizer-automation@3.1060.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-compute-optimizer-automation@3.1061.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-4dMIGgzwDinuYS0xyqvPVE8lg2aKg6PimDhr/JWOIesSzQUvm+FzFj+sIPd5KYEf
+sha384-RVwKHuiEHYd/fBgQS66pDogKop94aL+QlLE4GoTYr7NWs9NC+k0p8IRhAarVSCBw
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-compute-optimizer-automation": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-compute-optimizer-automation@3.1060.0/index.min.mjs"
+            "@aws-sdk/client-compute-optimizer-automation": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-compute-optimizer-automation@3.1061.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-compute-optimizer-automation@3.1060.0/index.min.mjs": "sha384-4dMIGgzwDinuYS0xyqvPVE8lg2aKg6PimDhr/JWOIesSzQUvm+FzFj+sIPd5KYEf"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-compute-optimizer-automation@3.1061.0/index.min.mjs": "sha384-RVwKHuiEHYd/fBgQS66pDogKop94aL+QlLE4GoTYr7NWs9NC+k0p8IRhAarVSCBw"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-compute-optimizer-automation": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-compute-optimizer-automation@3.1060.0/index.min.mjs"
+                        "@aws-sdk/client-compute-optimizer-automation": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-compute-optimizer-automation@3.1061.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-compute-optimizer-automation@3.1060.0/index.min.mjs": "sha384-4dMIGgzwDinuYS0xyqvPVE8lg2aKg6PimDhr/JWOIesSzQUvm+FzFj+sIPd5KYEf"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-compute-optimizer-automation@3.1061.0/index.min.mjs": "sha384-RVwKHuiEHYd/fBgQS66pDogKop94aL+QlLE4GoTYr7NWs9NC+k0p8IRhAarVSCBw"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1060.0`)
+* Always pin to a specific version (`@3.1061.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-compute-optimizer-automation/blob/refs/tags/3.1060.0/LICENSE
+https://github.com/cloud-sdk-builds/client-compute-optimizer-automation/blob/refs/tags/3.1061.0/LICENSE
 ```
 
 ---
